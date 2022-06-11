@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+*
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Nuosu SIL', serif;
+}
+.container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: rgb(226, 232, 243);
+    /* border-radius: 2rem; */
+    /* border-top-right-radius: 15rem; */
+    padding: 1.5rem;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255,0.2);
+}
+
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.center{
+    text-align: center;
+    margin-top: 1rem;
+    /* margin-left: 30%; */
+    position: relative;
+    padding-left: 50px;
+}
+.header-right{
+    margin-top: 2rem;
+    margin-left: 40%;
+
+}
+.col p{
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+h2 {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+.icon {
+    color: rgb(226, 232, 243);
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+    margin-left: 0.5rem;
+  }
+.grey {
+    background: rgb(16, 58, 83);
+    color: rgb(247, 243, 243);
+    padding: 0.5rem;
+    /* border-radius: 0.5rem; */
+  }
